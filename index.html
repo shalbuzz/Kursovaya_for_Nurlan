@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фермерский рынок "ЭкоФерма" - Свежие продукты от фермеров</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>ЭкоФерма</span>
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav class="nav" id="mainNav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Каталог</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="header-buttons">
+                <div class="header-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="header-icon">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="header-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">3</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main>
+        <!-- Герой секция -->
+        <section class="hero">
+            <div class="container hero-content">
+                <h1>Свежие продукты от фермеров</h1>
+                <p>Мы предлагаем широкий ассортимент экологически чистых продуктов напрямую от местных фермеров.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-lg" id="viewCatalogBtn">Смотреть каталог</a>
+                    <a href="about.html" class="btn btn-lg btn-outline">Узнать больше</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Категории -->
+        <section class="categories section">
+            <div class="container">
+                <h2 class="section-title text-center">Категории продуктов</h2>
+                <div class="category-grid">
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Фрукты" class="category-img">
+                        <div class="category-overlay">
+                            <h3 class="category-name">Фрукты</h3>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1566385101042-1a0aa0c1268c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Овощи" class="category-img">
+                        <div class="category-overlay">
+                            <h3 class="category-name">Овощи</h3>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1563636619-e9143da7973b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Молочные продукты" class="category-img">
+                        <div class="category-overlay">
+                            <h3 class="category-name">Молочные продукты</h3>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Мясо" class="category-img">
+                        <div class="category-overlay">
+                            <h3 class="category-name">Мясо</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Особенности -->
+        <section class="features section">
+            <div class="container">
+                <h2 class="section-title text-center">Почему выбирают нас</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3 class="feature-title">Экологически чистые продукты</h3>
+                        <p>Все наши продукты выращены без использования пестицидов и химических удобрений.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <h3 class="feature-title">Быстрая доставка</h3>
+                        <p>Доставляем свежие продукты в день заказа по всему городу.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <h3 class="feature-title">Высокое качество</h3>
+                        <p>Мы тщательно отбираем продукты и контролируем их качество на всех этапах.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Популярные продукты -->
+        <section class="popular-products section">
+            <div class="container">
+                <h2 class="section-title text-center">Популярные продукты</h2>
+                <div class="product-filter">
+                    <button class="filter-btn active" data-category="all">Все</button>
+                    <button class="filter-btn" data-category="fruits">Фрукты</button>
+                    <button class="filter-btn" data-category="vegetables">Овощи</button>
+                    <button class="filter-btn" data-category="dairy">Молочные продукты</button>
+                    <button class="filter-btn" data-category="meat">Мясо</button>
+                </div>
+                <div class="product-grid">
+                    <div class="product-card" data-category="fruits">
+                        <span class="product-badge">Новинка</span>
+                        <div class="product-img-container">
+                            <img src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Яблоки" class="product-img">
+                            <div class="product-actions">
+                                <div class="product-action-btn">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <div class="product-action-btn">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Фрукты</div>
+                            <h3 class="product-title">Яблоки Голден</h3>
+                            <div class="product-price">
+                                <span class="current-price">120 ₽/кг</span>
+                                <span class="old-price">150 ₽/кг</span>
+                            </div>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-rating">
+                                <div class="rating-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span class="rating-count">(24)</span>
+                            </div>
+                            <button class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span>В корзину</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="vegetables">
+                        <div class="product-img-container">
+                            <img src="https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Морковь" class="product-img">
+                            <div class="product-actions">
+                                <div class="product-action-btn">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <div class="product-action-btn">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Овощи</div>
+                            <h3 class="product-title">Морковь молодая</h3>
+                            <div class="product-price">
+                                <span class="current-price">60 ₽/кг</span>
+                            </div>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-rating">
+                                <div class="rating-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="rating-count">(18)</span>
+                            </div>
+                            <button class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span>В корзину</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="dairy">
+                        <span class="product-badge">Хит</span>
+                        <div class="product-img-container">
+                            <img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Молоко" class="product-img">
+                            <div class="product-actions">
+                                <div class="product-action-btn">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <div class="product-action-btn">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Молочные продукты</div>
+                            <h3 class="product-title">Молоко фермерское</h3>
+                            <div class="product-price">
+                                <span class="current-price">85 ₽/л</span>
+                                <span class="old-price">95 ₽/л</span>
+                            </div>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-rating">
+                                <div class="rating-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="rating-count">(32)</span>
+                            </div>
+                            <button class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span>В корзину</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="meat">
+                        <div class="product-img-container">
+                            <img src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Говядина" class="product-img">
+                            <div class="product-actions">
+                                <div class="product-action-btn">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <div class="product-action-btn">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Мясо</div>
+                            <h3 class="product-title">Говядина фермерская</h3>
+                            <div class="product-price">
+                                <span class="current-price">590 ₽/кг</span>
+                            </div>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-rating">
+                                <div class="rating-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span class="rating-count">(21)</span>
+                            </div>
+                            <button class="add-to-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span>В корзину</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a href="#" class="btn" id="viewAllProductsBtn">Смотреть все продукты</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Отзывы -->
+        <section class="testimonials section">
+            <div class="container">
+                <h2 class="section-title text-center">Отзывы наших клиентов</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">Я очень доволен качеством продуктов от ЭкоФермы. Всегда свежие овощи и фрукты, а молочные продукты просто восхитительны! Теперь заказываю только здесь.</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Автор отзыва" class="author-img">
+                            <div class="author-info">
+                                <h4>Алексей Петров</h4>
+                                <p>Постоянный клиент</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">Наконец-то нашла магазин с настоящими фермерскими продуктами! Вкус как в детстве у бабушки в деревне. Отдельное спасибо за быструю доставку.</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Автор отзыва" class="author-img">
+                            <div class="author-info">
+                                <h4>Мария Иванова</h4>
+                                <p>Москва</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">Покупаю здесь продукты для всей семьи уже больше года. Качество всегда на высоте, а цены приятно удивляют. Рекомендую всем, кто ценит натуральные продукты.</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Автор отзыва" class="author-img">
+                            <div class="author-info">
+                                <h4>Дмитрий Соколов</h4>
+                                <p>Шеф-повар</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Подписка на рассылку -->
+        <section class="newsletter">
+            <div class="container newsletter-container">
+                <h2>Подпишитесь на нашу рассылку</h2>
+                <p>Получайте информацию о новых продуктах, акциях и специальных предложениях</p>
+                <form class="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="Ваш email адрес" required>
+                    <button type="submit" class="newsletter-btn">Подписаться</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col footer-about">
+                <h3>О нас</h3>
+                <p>ЭкоФерма — это онлайн-магазин фермерских продуктов высочайшего качества. Мы сотрудничаем с лучшими фермерами, чтобы предложить вам самые свежие и экологически чистые продукты.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
+                </div>
+            </div>
+            <div class="footer-col footer-links">
+                <h3>Быстрые ссылки</h3>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-chevron-right"></i> Главная</a></li>
+                    <li><a href="about.html"><i class="fas fa-chevron-right"></i> О нас</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Каталог</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Контакты</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Доставка и оплата</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Политика конфиденциальности</a></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-contact">
+                <h3>Контакты</h3>
+                <p><i class="fas fa-map-marker-alt"></i> ул. Фермерская, 123, г. Москва, 123456</p>
+                <p><i class="fas fa-phone-alt"></i> +7 (123) 456-78-90</p>
+                <p><i class="fas fa-envelope"></i> info@ecoferma.ru</p>
+                <p><i class="fas fa-clock"></i> Пн-Пт: 08:00 - 20:00</p>
+            </div>
+            <div class="footer-col">
+                <h3>Галерея</h3>
+                <div class="footer-gallery">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Галерея" class="gallery-img">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1566385101042-1a0aa0c1268c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Галерея" class="gallery-img">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1563636619-e9143da7973b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Галерея" class="gallery-img">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Галерея" class="gallery-img">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Галерея" class="gallery-img">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1589881133595-a3c085cb731d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Галерея" class="gallery-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <p>&copy; 2025 ЭкоФерма. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+   <script src="./common.js"></script>
+   <script src="./index.js"></script>
+</body>
+</html>
